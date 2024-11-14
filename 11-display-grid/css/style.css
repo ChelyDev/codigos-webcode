@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.circulo{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(102, 181, 127);
+    border-radius: 100px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 300px;
+    grid-template-rows: 100px 100px 100px;
+}

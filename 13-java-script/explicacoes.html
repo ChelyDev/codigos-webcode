@@ -1,0 +1,53 @@
+Váriaveis em JS: var, let. const.
+var: acessiveis dentro da função onde foram definidas. Se usada fora causa problemas de segurança e desempenho.
+var e let são iguais.
+
+<script>
+    var nome = "João";
+    console.log(nome); //Outuput João
+</script>
+
+let: let permite que ela tenha escopo de bloco, só é acessível dentro do bloco que ela é definida,
+mais recomendada para variáveis que precisam ser reatrinuídas, vomo contadores ou variáveis temporárias em loops.
+
+<script>
+    let idade = 30;
+    idade = 31; //pode ser reatribuída
+</script>
+
+const: constante, não é variável e não muda.
+
+<script>
+    const pi = 3.14;
+</script>
+
+tipos primitivos: String, Number, Boolean, 
+Undefined (variável sem valor definido), Null(variável null (nula)).
+
+variáveis estruturais (uma variável com diversas informações):
+
+<script>
+    let pessoa = {
+        nome: "Michely",
+        idade: 19,
+        cidade: "Porteiras"
+    };
+    console.log(pessoa.nome); //Outuput Michely
+</script>
+
+Um array é uma estrutura de dados que armazena uma coleção ordenada de elementos. 
+Pode conter diferentes tipos de dados, incluindo outros arrays. Podem ser acessados pelo índice.
+
+<script>
+    let frutas = ["maçã", "banana", "laranja"];
+    console.log(frutas[0]); // Output: maçã
+
+// Adicionando um elemento ao final do array
+    frutas.push("uva");
+
+// Removendo o último elemento
+    let ultimaFruta = frutas.pop();
+
+    console.log(frutas.length); // Output: 3
+</script>
+

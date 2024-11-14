@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "navigation navigation navigation"
+        "content content aside"
+        "footer footer footer";
+}
+
+.header{
+    background-color: rosybrown;
+    grid-area: header;
+}
+
+.navigation{
+    background-color: bisque;
+    grid-area: navigation;
+}
+
+.content{
+    background-color: azure;
+    grid-area: content;
+}
+
+.aside{
+    background-color: chocolate;
+    grid-area: aside;
+}
+
+.footer{
+    background-color: wheat;
+    grid-area: footer;
+}

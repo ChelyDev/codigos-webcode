@@ -1,0 +1,34 @@
+h1{
+    padding-top: 4%;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    font-size: 150%;
+    margin-left: 150px;
+    color: #7f0bba;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin-top: 2%;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 60px;
+    background-color: #7f0bba;
+    padding: 27px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p{
+    
+    width: 100%;
+    margin-left: 150px;
+}

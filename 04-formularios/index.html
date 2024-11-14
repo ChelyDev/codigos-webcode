@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05/09/24</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulários</h1>
+    </header>
+    <section>
+        <form method="post" action="destino.html">
+            <div>
+                <label>Digite seu nome:</label>
+                <input type="text" name="nome_completo" placeholder="Digite seu nome completo" />
+            </div>
+            
+            <div>
+                <label>Digite sua idade:</label>
+                <input type="number" name="idade" placeholder="Digite sua idade" />
+            </div>
+
+            <div>
+                <label>Digite seu email:</label>
+                <input type="email" name="email" placeholder="Digite seu email" />
+            </div>
+
+            <div>
+                <label>Sua data de nascimento:</label>
+                <input type="date" name="data_nascimento" />
+            </div>
+
+            <div>
+                <label>Digite sua senha:</label>
+                <input type="password" name="senha" placeholder="Digite sua senha" />
+            </div>
+        
+            <div>
+                <h3>Dados de entrega</h3>
+                <label for="cidade">Escolha a cidade de entrega:</label>
+                <select name="cidade" id="cidade">
+                    <option value="PT">Porteiras</option>
+                    <option value="BS">Brejo-Santo</option>
+                    <option value="MT">Mauriti</option>
+                    <option value="C">Céu</option>
+                    <option value="In">Inferno</option>
+                </select>
+            </div>
+            
+            <div>
+                <label>Logradouro</label>
+                <input type="radio" name="zona" value="Rural">Zona Rural
+                <input type="radio" name="zona" value="Urbana">Zona Urbana
+            </div>
+
+            <div>
+                <label>Quem pode receber?</label>
+                <input type="checkbox" value="mae" name="recebedor">Mãe
+                <input type="checkbox" value="irmao" name="recebedor">Irmã
+                <input type="checkbox" value="pai" name="recebedor">Pai
+                <input type="checkbox" value="vizinho" name="recebedor">Vizinho
+                <input type="checkbox" value="avo" name="recebedor">Avô
+                <input type="checkbox" value="avoa" name="recebedor">Avó
+                <input type="checkbox" value="todes" name="recebedor">Todes
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar"> <!--Enviar-->
+                <input type="reset" value="Resetar"> <!--Resetar-->
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Aula webcoding - Michely Costa</p>
+    </footer>
+</body>
+</html>

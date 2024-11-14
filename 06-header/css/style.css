@@ -1,0 +1,44 @@
+/*define a configuração/reseta 
+as conf. padrões de largura e altura*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #f06b83;
+    height: 60px;
+}
+
+button{
+    margin: 18px 50px 0px 50px;
+}
+
+header main{
+    width: 800px ;
+    margin: 0px auto; /*centraliza o bloco*/
+}
+
+header main figure{
+    float: left;
+}
+
+header main figure img {
+    width: 54px; /*largura*/
+    height: 54px; /*altura*/
+}
+
+header main nav{
+    float: left;
+    margin: 18px 50px 0px 50px;
+}
+
+
+header main nav a{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none; /*tira o sublinhado do link/define uma decoração nova*/
+}

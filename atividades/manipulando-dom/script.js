@@ -1,4 +1,4 @@
-var corEscolhida = prompt('Digite a cor do fundo (nome ou código hexadecimal, ex: black, white, #FF5733):');
+let corEscolhida = prompt('Digite a cor do fundo (nome ou código hexadecimal, ex: black, white, #FF5733):');
 
 function mudarBG(cor) { 
     document.body.style.background = cor

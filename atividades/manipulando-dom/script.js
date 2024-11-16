@@ -3,7 +3,7 @@ var corEscolhida = prompt('Digite a cor do fundo (nome ou código hexadecimal, e
 function mudarBG(cor) { 
     document.body.style.background = cor
 
-    var titulo = document.querySelector('h1');
+    let titulo = document.querySelector('h1');
             
     if (cor === 'black' || cor === '#000000') {
         titulo.style.color = 'white';
